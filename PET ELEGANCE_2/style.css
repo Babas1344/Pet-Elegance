@@ -1,0 +1,292 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #fbf2c1, #e0c3fc, #74ffa2);
+    color: #333;
+  }
+  
+  header.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #ffb347, #e0c3fc);
+    padding: 10px;
+  }
+  
+  .logo-container {
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+  
+  .banner-img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  nav {
+    background-color: #5cbbe7;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 12px;
+    background-color: #74ffa2;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover,
+  nav a.activo {
+    background-color: #a29bfe;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #2c271a;
+  }
+  
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+  
+  .producto {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .producto button {
+    background-color: #e75cbd;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .producto button:hover {
+    background-color: #9bfea8;
+  }
+  
+  .carrito ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contacto form {
+    display: grid;
+    gap: 09px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contacto input,
+  .contacto textarea {
+    padding: 09px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contacto button {
+    background-color: #8fe75c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #dfe6e9;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 2px solid #ccc;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Pet Elegance

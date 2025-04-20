@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Elegance</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="banner">
+    <div class="logo-container">
+      <img src="imagenes/logo.png" alt="Logo de Pet Elegance" class="logo" />
+      <img src="imagenes/banner.jpg" alt="Banner principal" class="banner-img" />
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Nosotros</a>
+    <a href="#">Servicios</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section class="quienes-somos">
+    <h1>Bienvenidos a Pet Elegance</h1>
+    <p>¡Donde el estilo y el cuidado para tus mascotas se unen! Somos una tienda pensada para quienes aman consentir a sus peludos amigos. Aquí encontrarás productos y servicios de alta calidad que harán felices a tus mascotas.</p>
+  </section>
+
+  <section class="productos">
+    <h2>Productos Destacados</h2>
+
+    <div class="producto">
+      <img src="imagenes/accesorios_gatos_perros.gif" alt="Accesorios para mascotas">
+      <h3>Accesorios</h3>
+      <p>Collares, correas, ropita y más.</p>
+      <button onclick="agregarAlCarrito('Accesorios')">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="imagenes/comida.jpg" alt="Comida para mascotas">
+      <h3>Comida</h3>
+      <p>Alimento balanceado y snacks saludables.</p>
+      <button onclick="agregarAlCarrito('Comida')">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="imagenes/higiene.jpg" alt="Productos de higiene">
+      <h3>Higiene</h3>
+      <p>Shampoo, cepillos y productos de limpieza.</p>
+      <button onclick="agregarAlCarrito('Higiene')">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="imagenes/carrito.gif" alt="Cepillos para mascotas">
+      <h3>Cepillos</h3>
+      <p>Para el cuidado del pelaje.</p>
+      <button onclick="agregarAlCarrito('Cepillos')">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="imagenes/juguetes.jpg" alt="Juguetes para mascotas">
+      <h3>Juguetes</h3>
+      <p>Juguetes interactivos para su diversión.</p>
+      <button onclick="agregarAlCarrito('Juguetes')">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="imagenes/cama.jpg" alt="Camas para mascotas">
+      <h3>Camas</h3>
+      <p>Confort y estilo para su descanso.</p>
+      <button onclick="agregarAlCarrito('Camas')">Agregar al carrito</button>
+    </div>
+  </section>
+
+  <section class="carrito">
+    <h2>🛒 Carrito de Compras</h2>
+    <ul id="lista-carrito"></ul>
+    <button onclick="vaciarCarrito()">Vaciar carrito</button>
+  </section>
+
+  <section class="servicios">
+    <h2>Servicios Especiales</h2>
+
+    <div class="servicio">
+      <img src="imagenes/bano.gif" alt="Baño para mascotas">
+      <span>Baño</span>
+    </div>
+
+    <div class="servicio">
+      <img src="imagenes/corte_de_pelo.gif" alt="Corte de pelo para mascotas">
+      <span>Corte de Pelo</span>
+    </div>
+
+    <div class="servicio">
+      <img src="imagenes/masajes.gif" alt="Masajes relajantes para mascotas">
+      <span>Masajes</span>
+    </div>
+  </section>
+
+  <section class="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pet Elegance. Diseñado para los amantes de las mascotas.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
